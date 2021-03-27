@@ -1,4 +1,11 @@
-* {
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+/* * {
     font-size: 13px;
     font-family: 'Barlow Semi Condensed'; 
     font-weight: 500, 600;
@@ -54,7 +61,7 @@ div.card.four {
 div.card.five {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-}
+} */
 
 
 
