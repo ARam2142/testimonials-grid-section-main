@@ -1,0 +1,60 @@
+* {
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed'; 
+    font-weight: 500, 600;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+div.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+div.card {
+    overflow: hidden;
+}
+
+p {
+    color: hsl(0, 0%, 81%);
+}
+
+div.card.one {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    border-radius: 20px;
+}
+
+div.card.two {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 20px;
+}
+
+div.card.three {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+div.card.four {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 20px;
+}
+
+div.card.five {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+
+
