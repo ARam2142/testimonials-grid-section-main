@@ -23,6 +23,20 @@ img {
     border-radius: 50%;
 }
 
+.profile {
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.verify {
+    margin-top: 2px;
+}
+
 .card-1 {
     border-style: solid;
     padding: 25px;
